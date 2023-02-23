@@ -13,11 +13,11 @@
 
     <style>
       body {
-        background-color: rgb(37, 37, 37);
+        background-color: rgb(0, 0, 0);
       }
 
       #main_title {
-        background-color: black;
+        /* background-color: black; */
         color:aliceblue;
         padding:10px;
         text-align:center;
@@ -25,19 +25,19 @@
       }
 
       #scatter {
-        max-width: 58vw;
-        min-width: 58vw;
+        max-width: 56vw;
+        min-width: 56vw;
         position:absolute;
-        background-color: black;
+        /* background-color: black; */
         max-height:40vh;
         min-height: 40vh;
       }
 
       #label1 {
-        background-color: black;
+        /* background-color: black; */
         position: absolute;
-        max-width: 38vw;
-        min-width: 38vw;
+        max-width: 35vw;
+        min-width: 35vw;
         left:61%;
         color:blanchedalmond;
         text-align: center;
@@ -52,22 +52,33 @@
       }
 
       #line {
-        background-color: black;
+        /* background-color: black; */
         position: absolute;
-        top:49vh;
-        max-height: 40vh;
-        min-height: 40vh;
+        top:54vh;
+        max-height: 35vh;
+        min-height: 35vh;
+        max-width: 95.5vw;
+        min-width: 95.5vw;
+      }
+
+      .box {
+        background-color: rgb(22, 22, 22);
+        padding:1%;
+        border-style: groove;
+        border-radius: 2%;
+        border-color:rgb(97, 97, 97);
+        border-width:4px;
       }
     </style>
   </head>
   <body>
-    <h3 id="main_title">
+    <h3 class ="box" id="main_title">
       Quality Dashboard
     </h3>
 
-    <canvas id="scatter"></canvas>
+    <canvas class="box" id="scatter"></canvas>
 
-    <div id="label1">
+    <div class="box" id="label1">
       <h3>Text</h5>
       <p id="desc1">
         Big Number
@@ -75,7 +86,7 @@
       <p id="num1">954.3</p>
     </div>
 
-    <canvas id="line"></canvas>
+    <canvas class="box" id="line"></canvas>
     <script 
       type="text/javascript" 
       src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js">
