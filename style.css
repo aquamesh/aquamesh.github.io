@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+#main_title {
+/* background-color: black; */
+    color:aliceblue;
+    padding:10px;
+    text-align:center;
+    font-family:"Lucida Console", monospace
+}
+
+#scatter {
+    max-width: 56vw;
+    min-width: 56vw;
+    position:absolute;
+    /* background-color: black; */
+    max-height:40vh;
+    min-height: 40vh;
+}
+
+#label1 {
+    /* background-color: black; */
+    position: absolute;
+    max-width: 35vw;
+    min-width: 35vw;
+    left:61%;
+    color:blanchedalmond;
+    text-align: center;
+    font-size:20px;
+    max-height:40vh;
+    min-height: 40vh;
+}
+
+#num1 {
+    color:greenyellow;
+    font-size:300%;
+}
+
+#line {
+    /* background-color: black; */
+    position: absolute;
+    top:54vh;
+    max-height: 35vh;
+    min-height: 35vh;
+    max-width: 95.5vw;
+    min-width: 95.5vw;
+}
+
+.box {
+    background-color: rgb(22, 22, 22);
+    padding:1%;
+    border-style: groove;
+    border-radius: 2%;
+    border-color:rgb(97, 97, 97);
+    border-width:4px;
+}
