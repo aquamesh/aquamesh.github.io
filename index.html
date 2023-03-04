@@ -12,19 +12,20 @@
 
   <link rel="stylesheet" href="style.css">
   </head>
+  <img src="cropped_logo.png" id="logo">
   <body>
     <h3 class ="box" id="main_title">
       Quality Dashboard
     </h3>
 
-    <canvas class="box" id="scatter"></canvas>
+    <!-- NOTE: YOU NEED TO SET UP A BILLING ACCOUNT FOR THE MAP -->
+    <!-- I didn't do that so this is just a static placeholder map. -->
+    <div class="box" id="map">
+      <iframe id="gmap" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d35033.115439081834!2d-117.22234429241551!3d32.77185421752824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1677908828062!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
 
     <div class="box" id="label1">
-      <h3>Text</h5>
-      <p id="desc1">
-        Big Number
-      </p>
-      <p id="num1">954.3</p>
+      <h3>Devices</h5>
     </div>
 
     <canvas class="box" id="line"></canvas>
@@ -32,8 +33,6 @@
       type="text/javascript" 
       src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js">
     </script>
-    <script>
-      src="script.js"
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>

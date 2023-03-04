@@ -3,24 +3,33 @@ body {
 }
 
 #main_title {
-/* background-color: black; */
+    top:11vh;
+    position: absolute;
     color:aliceblue;
     padding:10px;
     text-align:center;
-    font-family:"Lucida Console", monospace
+    font-family:"Lucida Console", monospace;
+    width: 96.5vw;
 }
 
-#scatter {
+#map {
+    top:18vh;
     max-width: 56vw;
     min-width: 56vw;
     position:absolute;
     /* background-color: black; */
-    max-height:40vh;
-    min-height: 40vh;
+    max-height:37vh;
+    min-height: 37vh;
+}
+
+#gmap {
+    height:37vh;
+    width:100%;
 }
 
 #label1 {
     /* background-color: black; */
+    top:18vh;
     position: absolute;
     max-width: 35vw;
     min-width: 35vw;
@@ -28,19 +37,14 @@ body {
     color:blanchedalmond;
     text-align: center;
     font-size:20px;
-    max-height:40vh;
-    min-height: 40vh;
-}
-
-#num1 {
-    color:greenyellow;
-    font-size:300%;
+    max-height:37vh;
+    min-height: 37vh;
 }
 
 #line {
     /* background-color: black; */
     position: absolute;
-    top:54vh;
+    top:60vh;
     max-height: 35vh;
     min-height: 35vh;
     max-width: 95.5vw;
@@ -54,4 +58,14 @@ body {
     border-radius: 2%;
     border-color:rgb(97, 97, 97);
     border-width:4px;
+}
+
+#logo {
+    position: relative;
+    height:11vh;
+    /* left:20%;
+    right:20% */
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
 }
