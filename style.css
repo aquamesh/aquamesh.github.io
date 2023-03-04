@@ -14,8 +14,8 @@ body {
 
 #map {
     top:18vh;
-    max-width: 56vw;
-    min-width: 56vw;
+    max-width: 57vw;
+    min-width: 57vw;
     position:absolute;
     /* background-color: black; */
     max-height:37vh;
@@ -62,7 +62,9 @@ body {
 
 #logo {
     position: relative;
-    height:11vh;
+    height:12vh;
+    max-width:100%;
+    min-width: 40%;
     /* left:20%;
     right:20% */
     display:block;
