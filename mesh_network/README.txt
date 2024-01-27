@@ -13,6 +13,7 @@ Battery recharging is complicated. Still looking into a reliable method, beyond
 connecting directly into a power supply. USB devices exist for this purpose,
 but we ran out of money a long time ago. 
 
+OTAA and ABP activation haven't been figured out yet. End Node Problem remains... 
 
 In the future, we should try to have:
  - Batch production/code upload
